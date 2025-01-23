@@ -1,18 +1,38 @@
-<html>
-    <!--Comment line-->
-     <header>This it the header</header>
-    <br/>
+<!--Comment line-->
+
+<!DOCTYPE html> <!--Declare the file type HTML & tells the browser to render in HTML5-->
+
+<html lang="en"> <!--Specify the language of the content of the page -->
     
-    <body> 
-        <a href="./About.html">About us</a>
-        <a href="./Contactus.html">Contact us </a>
-        <br/>
-        <br/>
-        <button>Login</button>
-        <button>Sign up</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Venue Search</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+    </head>
+    
+    <?php ?>
+    <body>     
+        <div class="indexbox"> 
+           <div class="links">
+                <a href="./login.html">Login </a>
+                <a href="./Contactus.html">Contact us </a>
+                <a href="./About.html">About us</a>       
+            </div>
+            <div class="indexbody">
+                <h1>Venue Finder</h1>
+                <form> 
+                    <div class="search">
+                        <span class="search-icon material-symbols-outlined">search</span>
+                        <input class="search-input" type="search" placeholder="Search venue & Location">
+                    </div>
+                </form>
+            </div>
+        </div>
     </body>
-    <br/>
-    <br/>
-    <footer>This is the footer</footer>
 </html>
 
