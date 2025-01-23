@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333 no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Here is the login page CSS*/
+.wrapper{
+    width: 420px;
+    background: transparent;
+    color:#fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper a{
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper a:hover{
+    text-decoration: underline;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px ;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}   
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;   
+}
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+/* Here is the index page CSS*/
+.indexbox .indexbody .search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #f6f6f6;
+}
+.indexbox .indexbody .search-input{
+    font-size: 16px;
+    font-family: 'lexend', sans-serif;
+    color: #333333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+}
+.indexbox .indexbody .search-input::placeholder,
+.indexbox .indexbox .search-icon{
+    color:rgba(0, 0, 0, 0.25);
+}
+.indexbox{
+    padding: 10px 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    min-height: 100vh;
+    font-family: 'lexend', sans-serif;
+}
+.indexbox .links{
+    font-family: 'lexend', sans-serif;
+    min-height: 5vh;
+    width: 100%;
+    text-align: right;
+    background-color: #333;
+    padding: 10px 0 0 10px;
+}
+
+.indexbox .links a{
+    color: #fff;
+    text-decoration: none;
+}
+.indexbox .links a:hover{
+    text-decoration: underline;
+}
+.indexbox .indexbody{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background: #333;
+}
+.indexbox .indexbody h1{
+    font-weight: 500;
+    color: #00bcd4;
+    font-size: 76px;
+    font: 'fantasy' , sans-serif; 
+}
+
+/* Here is the Contact us page CSS*/
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+}
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;   
+}
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactform{
+    width: 60%;
+    padding: 40px;
+    background: #fff;
+}
+.contactuslink{
+    width: 100%;
+    text-align: center;
+}
+.contactform .contactuslink a{
+    color: #333;
+    text-decoration: none;
+}
+.contactform .contactuslink a:hover{
+    text-decoration: underline;
+}
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+.contactform .inputBox input,
+.contactform .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactform .inputBox input:focus ~ span, 
+.contactform .inputBox input:valid ~ span,
+.contactform .inputBox textarea:focus ~ span, 
+.contactform .inputBox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-10px);
+}
+.contactform .inputBox input[type="submit"]
+{
+    width: 100%;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px)
+{
+    .contact {
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container .contactinfo,
+    .contactform
+    {
+        width: 100%;
+    }
+}
+
+/* Here is the About us page CSS*/
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: #fff;
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .6);
+    width: 300px;
+}
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+}
+.about-item p{
+    margin-top: 20px;
+    padding-bottom: 35px;
+}
+.about-item:hover{
+    background-color: #5fbff9;
+}
+.about-item:hover, i
+.about-item:hover h3,
+.about-item:hover p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover, i
+.about-item:hover h3,
+.about-item:hover p{
+    transition: all 400ms ease-in-out ;
+}
+footer{
+    background: #333;
+    padding: 20px;
+    position: fixed; bottom: 0;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.body footer p{
+    color: #fff;
+}
+.row{
+    display: flex;
+    margin: 20px;
+}
+.row .col-md-4 {
+    margin-left: 110px;
+    align-items: center;
+}
+
+
